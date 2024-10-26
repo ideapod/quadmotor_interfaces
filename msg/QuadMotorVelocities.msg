@@ -1,4 +1,4 @@
-int32 motor1_velocity
-int32 motor2_velocity
-int32 motor3_velocity
-int32 motor4_velocity
+int32 front_right_motor_velocity
+int32 front_left_motor_velocity
+int32 rear_right_motor_velocity
+int32 rear_left_motor_velocity

@@ -10,11 +10,16 @@ find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/QuadMotorEncoderCounts.msg"
   "msg/QuadMotorVelocities.msg"
+  "msg/QuadMotorEncoderCountsStamped.msg"
+  "msg/FencieHeadPosition.msg"
+  "msg/FencieHeadCommand.msg"
+  DEPENDENCIES builtin_interfaces
 )
 
 

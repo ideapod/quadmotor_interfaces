@@ -1,0 +1,3 @@
+int32 arm_rot_z_angle
+int32 arm_rot_x_angle
+int32 jaw_angle
